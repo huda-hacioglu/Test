@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bilin/OneDrive%20-%20Tiga/Masa%C3%BCst%C3%BC/Test/mlruns/0/a43e7b814e674cd9a2936c75630b503e/artifacts
+end_time: 1699258797516
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a43e7b814e674cd9a2936c75630b503e
+run_name: nervous-squid-675
+run_uuid: a43e7b814e674cd9a2936c75630b503e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699258509539
+status: 4
+tags: []
+user_id: Dell-5400
