@@ -68,7 +68,7 @@ def generate_next_run_name(experiment_id):
 
 results= XGBOOST(X_train, y_train, X_test, y_test)
 
- mlflow.log_param("test size", real_testssize)
+mlflow.log_param("test size", real_testssize)
 mlflow.log_metric("accuracy", results[0])
 mlflow.log_metric("mean squared error", results[1])
 mlflow.log_metric("r squared", results[2])
