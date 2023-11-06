@@ -10,4 +10,4 @@ entry_points:
       max_depth: {type: int, default: 2}
       random_state: {type: int, default: 35}
       real_testssize: {type: float, default: 0.4}
-    command: "python main.sh {learning_rate} {n_estimators} {max_depth} {random_state} {real_testssize}"
+    command: "python main.py {learning_rate} {n_estimators} {max_depth} {random_state} {real_testssize}"

@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 
 mlflow.set_tracking_uri('http://192.168.1.45:5000/')
 
-experiment_name = "MLFlow Project Deneme"
+experiment_name = "MLFlow Project Deneme1"
 
 experiment = mlflow.get_experiment_by_name(experiment_name)
 
