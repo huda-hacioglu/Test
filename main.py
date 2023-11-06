@@ -48,21 +48,21 @@ import matplotlib.pyplot as plt
 
 #mlflow.set_tracking_uri('http://192.168.1.45:5000/')
 
-experiment_name = "MLFlow Project Deneme1"
+#experiment_name = "MLFlow Project Deneme1"
 
-experiment = mlflow.get_experiment_by_name(experiment_name)
+#experiment = mlflow.get_experiment_by_name(experiment_name)
 
-if experiment is None:
-    experiment_id = mlflow.create_experiment(experiment_name)
-    print(f"Created experiment '{experiment_name}' with ID {experiment_id}")
-else:
-    experiment_id = experiment.experiment_id
-    print(f"Experiment '{experiment_name}' already exists with ID {experiment_id}. You can display the run from that page")
+#if experiment is None:
+#    experiment_id = mlflow.create_experiment(experiment_name)
+#    print(f"Created experiment '{experiment_name}' with ID {experiment_id}")
+#else:
+#    experiment_id = experiment.experiment_id
+#    print(f"Experiment '{experiment_name}' already exists with ID {experiment_id}. You can display the run from that page")
 
-def generate_next_run_name(experiment_id):
-    runs = mlflow.search_runs(experiment_ids=[experiment_id], filter_string='')
-    num_runs = len(runs)
-    return f"test{num_runs + 1}"
+#def generate_next_run_name(experiment_id):
+#    runs = mlflow.search_runs(experiment_ids=[experiment_id], filter_string='')
+#    num_runs = len(runs)
+#    return f"test{num_runs + 1}"
 
 #with mlflow.start_run(experiment_id=experiment_id) as run:
 
