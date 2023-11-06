@@ -46,7 +46,7 @@ import mlflow
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 
-#mlflow.set_tracking_uri('http://192.168.1.45:5000/')
+mlflow.set_tracking_uri('http://192.168.1.45:5000/')
 
 #experiment_name = "MLFlow Project Deneme1"
 
