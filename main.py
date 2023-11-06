@@ -1,7 +1,7 @@
-print("Helloooo")
+"""print("Helloooo")"""
 
 
-"""import pandas as pd
+import pandas as pd
 import xgboost as xgb
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
@@ -86,4 +86,4 @@ with mlflow.start_run(experiment_id=experiment_id) as run:
     plt.savefig("Results_Comparison.png")
     mlflow.log_artifact("Results_Comparison.png")
 
-mlflow.end_run()"""
+mlflow.end_run()
