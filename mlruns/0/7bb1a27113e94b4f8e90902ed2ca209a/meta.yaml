@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bilin/OneDrive%20-%20Tiga/Masa%C3%BCst%C3%BC/Test/mlruns/0/7bb1a27113e94b4f8e90902ed2ca209a/artifacts
+end_time: 1699259954129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bb1a27113e94b4f8e90902ed2ca209a
+run_name: gifted-bear-292
+run_uuid: 7bb1a27113e94b4f8e90902ed2ca209a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699259930153
+status: 3
+tags: []
+user_id: Dell-5400
