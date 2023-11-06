@@ -64,26 +64,26 @@ def generate_next_run_name(experiment_id):
     num_runs = len(runs)
     return f"test{num_runs + 1}"
 
-with mlflow.start_run(experiment_id=experiment_id) as run:
+#with mlflow.start_run(experiment_id=experiment_id) as run:
 
-    results= XGBOOST(X_train, y_train, X_test, y_test)
+results= XGBOOST(X_train, y_train, X_test, y_test)
 
-    mlflow.log_param("test size", real_testssize)
-    mlflow.log_metric("accuracy", results[0])
-    mlflow.log_metric("mean squared error", results[1])
-    mlflow.log_metric("r squared", results[2])
+ mlflow.log_param("test size", real_testssize)
+mlflow.log_metric("accuracy", results[0])
+mlflow.log_metric("mean squared error", results[1])
+mlflow.log_metric("r squared", results[2])
 
-    colors = ['red', 'green', 'blue', 'purple']
+colors = ['red', 'green', 'blue', 'purple']
 
-    plt.bar(["Accuracy","Mean squared error","r squared"],[results[0],results[1],results[2]],color=colors)
-    plt.xlabel('Parameters')
-    plt.ylabel('Values')
-    plt.title('Results Comparison')
+plt.bar(["Accuracy","Mean squared error","r squared"],[results[0],results[1],results[2]],color=colors)
+plt.xlabel('Parameters')
+plt.ylabel('Values')
+plt.title('Results Comparison')
 
-    plt.grid(True)
+plt.grid(True)
 
-    # Save the bar chart as an artifact
-    plt.savefig("Results_Comparison.png")
-    mlflow.log_artifact("Results_Comparison.png")
+ # Save the bar chart as an artifact
+plt.savefig("Results_Comparison.png")
+mlflow.log_artifact("Results_Comparison.png")
 
-mlflow.end_run()
+#mlflow.end_run()

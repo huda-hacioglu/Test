@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bilin/OneDrive%20-%20Tiga/Masa%C3%BCst%C3%BC/Test/mlruns/0/6d3330274c174a9a8fe1fff688b7214f/artifacts
+end_time: 1699259745331
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d3330274c174a9a8fe1fff688b7214f
+run_name: clumsy-trout-818
+run_uuid: 6d3330274c174a9a8fe1fff688b7214f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699259705600
+status: 4
+tags: []
+user_id: Dell-5400
