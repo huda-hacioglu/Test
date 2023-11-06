@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bilin/OneDrive%20-%20Tiga/Masa%C3%BCst%C3%BC/Test/mlruns/0/4c8cc5f51b2f49b98df2d6b882240c63/artifacts
+end_time: 1699257905480
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c8cc5f51b2f49b98df2d6b882240c63
+run_name: mercurial-hare-802
+run_uuid: 4c8cc5f51b2f49b98df2d6b882240c63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699257901544
+status: 4
+tags: []
+user_id: Dell-5400
