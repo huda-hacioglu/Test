@@ -4,4 +4,4 @@ conda_env: conda_env.yaml
 
 entry_points:
   main:
-    command: "python main.py"
+    command: "python fetal_health.py"

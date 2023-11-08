@@ -39,9 +39,7 @@ def XGBOOST(X_train, y_train, X_test, y_test):
 
     return results
 
-import mlflow
-import mlflow.sklearn
-import matplotlib.pyplot as plt
+ 
 
 """mlflow.set_tracking_uri('http://192.168.1.45:5000/')
 
