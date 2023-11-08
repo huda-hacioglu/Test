@@ -43,7 +43,7 @@ import mlflow
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 
-mlflow.set_tracking_uri('http://192.168.1.45:5000/')
+"""mlflow.set_tracking_uri('http://192.168.1.45:5000/')
 
 experiment_name = "TEST - MLFlow Project"
 
@@ -59,9 +59,9 @@ else:
 def generate_next_run_name(experiment_id):
     runs = mlflow.search_runs(experiment_ids=[experiment_id], filter_string='')
     num_runs = len(runs)
-    return f"test{num_runs + 1}"
+    return f"test{num_runs + 1}"""
 
-with mlflow.start_run(experiment_id=experiment_id) as run:
+with mlflow.start_run() as run:
 
     results= XGBOOST(X_train, y_train, X_test, y_test)
     
